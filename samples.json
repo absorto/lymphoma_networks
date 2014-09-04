@@ -1,0 +1,15 @@
+{ 'DLBCL':                [ 'GSE43677',
+                            'GSE57611',
+                            'GSE53786' ],
+  'follicullar lymphoma': [ 'GSE53820',
+                            'GSE55267',
+                            'GSE37088' ],
+  'Burkitt':              [ 'GSE26673',
+                            'GSE48435',
+                            'GSE42867',
+                            'GSE17189',
+                            'GSE35163',
+                            'GSE12453',
+                            'GSE4732',
+                            'GSE4475' ]
+}
