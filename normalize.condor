@@ -1,0 +1,82 @@
+executable     = normalize.sh
+
+Arguments = /media/e/lymphoma_networks/data/GSE12195
+output    = norm$(Process).out
+error     = norm$(Process.error
+universe  = vanilla
+Queue
+
+Arguments = /media/e/lymphoma_networks/data/GSE17189
+output    = norm$(Process).out
+error     = norm$(Process.error
+universe  = vanilla
+Queue
+
+Arguments = /media/e/lymphoma_networks/data/GSE2350
+output    = norm$(Process).out
+error     = norm$(Process.error
+universe  = vanilla
+Queue
+
+Arguments = /media/e/lymphoma_networks/data/GSE26673
+output    = norm$(Process).out
+error     = norm$(Process.error
+universe  = vanilla
+Queue
+
+Arguments = /media/e/lymphoma_networks/data/GSE31312
+output    = norm$(Process).out
+error     = norm$(Process.error
+universe  = vanilla
+Queue
+
+Arguments = /media/e/lymphoma_networks/data/GSE34171
+output    = norm$(Process).out
+error     = norm$(Process.error
+universe  = vanilla
+Queue
+
+Arguments = /media/e/lymphoma_networks/data/GSE37088
+output    = norm$(Process).out
+error     = norm$(Process.error
+universe  = vanilla
+Queue
+
+Arguments = /media/e/lymphoma_networks/data/GSE42867
+output    = norm$(Process).out
+error     = norm$(Process.error
+universe  = vanilla
+Queue
+
+Arguments = /media/e/lymphoma_networks/data/GSE43677
+output    = norm$(Process).out
+error     = norm$(Process.error
+universe  = vanilla
+Queue
+
+Arguments = /media/e/lymphoma_networks/data/GSE4475
+output    = norm$(Process).out
+error     = norm$(Process.error
+universe  = vanilla
+Queue
+
+Arguments = /media/e/lymphoma_networks/data/GSE48435
+output    = norm$(Process).out
+error     = norm$(Process.error
+universe  = vanilla
+Queue
+
+Arguments = /media/e/lymphoma_networks/data/GSE55267
+output    = norm$(Process).out
+error     = norm$(Process.error
+universe  = vanilla
+Queue
+
+Arguments = /media/e/lymphoma_networks/data/GSE57611
+output    = norm$(Process).out
+error     = norm$(Process.error
+universe  = vanilla
+Queue
+
+
+
