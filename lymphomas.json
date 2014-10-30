@@ -1,4 +1,4 @@
-lymphomas = { 'Burkitt': {'hgu133a': {'GSE43677':['GSM1068064',
+subtipos = { 'Burkitt': {'hgu133a': {'GSE43677':['GSM1068064',
                                                   'GSM1068065',
                                                   'GSM1068066',
                                                   'GSM1068068',
