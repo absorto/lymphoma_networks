@@ -1,82 +1,51 @@
 executable     = normalize.sh
-
-Arguments = /media/e/lymphoma_networks/data/GSE12195
+Arguments = /media/e/lymphoma_networks/data/GSE17189 hgu133plus2
 output    = norm$(Process).out
-error     = norm$(Process.error
+error     = norm$(Process).error
 universe  = vanilla
 Queue
-
-Arguments = /media/e/lymphoma_networks/data/GSE17189
+Arguments = /media/e/lymphoma_networks/data/GSE42867 hgu133plus2
 output    = norm$(Process).out
-error     = norm$(Process.error
+error     = norm$(Process).error
 universe  = vanilla
 Queue
-
-Arguments = /media/e/lymphoma_networks/data/GSE2350
+Arguments = /media/e/lymphoma_networks/data/GSE26673 hgu133plus2
 output    = norm$(Process).out
-error     = norm$(Process.error
+error     = norm$(Process).error
 universe  = vanilla
 Queue
-
-Arguments = /media/e/lymphoma_networks/data/GSE26673
+Arguments = /media/e/lymphoma_networks/data/GSE48435 HuGene-1_0-st
 output    = norm$(Process).out
-error     = norm$(Process.error
+error     = norm$(Process).error
 universe  = vanilla
 Queue
-
-Arguments = /media/e/lymphoma_networks/data/GSE31312
+Arguments = /media/e/lymphoma_networks/data/GSE43677 hgu133a
 output    = norm$(Process).out
-error     = norm$(Process.error
+error     = norm$(Process).error
 universe  = vanilla
 Queue
-
-Arguments = /media/e/lymphoma_networks/data/GSE34171
+Arguments = /media/e/lymphoma_networks/data/GSE4475 hgu133a
 output    = norm$(Process).out
-error     = norm$(Process.error
+error     = norm$(Process).error
 universe  = vanilla
 Queue
-
-Arguments = /media/e/lymphoma_networks/data/GSE37088
+Arguments = /media/e/lymphoma_networks/data/GSE37088 hgu133a
 output    = norm$(Process).out
-error     = norm$(Process.error
+error     = norm$(Process).error
 universe  = vanilla
 Queue
-
-Arguments = /media/e/lymphoma_networks/data/GSE42867
+Arguments = /media/e/lymphoma_networks/data/GSE12195 hgu133plus2
 output    = norm$(Process).out
-error     = norm$(Process.error
+error     = norm$(Process).error
 universe  = vanilla
 Queue
-
-Arguments = /media/e/lymphoma_networks/data/GSE43677
+Arguments = /media/e/lymphoma_networks/data/GSE43677 hgu133a
 output    = norm$(Process).out
-error     = norm$(Process.error
+error     = norm$(Process).error
 universe  = vanilla
 Queue
-
-Arguments = /media/e/lymphoma_networks/data/GSE4475
+Arguments = /media/e/lymphoma_networks/data/GSE31312 hgu133plus2
 output    = norm$(Process).out
-error     = norm$(Process.error
+error     = norm$(Process).error
 universe  = vanilla
 Queue
-
-Arguments = /media/e/lymphoma_networks/data/GSE48435
-output    = norm$(Process).out
-error     = norm$(Process.error
-universe  = vanilla
-Queue
-
-Arguments = /media/e/lymphoma_networks/data/GSE55267
-output    = norm$(Process).out
-error     = norm$(Process.error
-universe  = vanilla
-Queue
-
-Arguments = /media/e/lymphoma_networks/data/GSE57611
-output    = norm$(Process).out
-error     = norm$(Process.error
-universe  = vanilla
-Queue
-
-
-

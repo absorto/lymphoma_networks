@@ -84,7 +84,7 @@ subtipos = { 'Burkitt': {'hgu133a': {'GSE43677':['GSM1068064',
                                                        'GSM429915',
                                                        'GSM429907']
                                          },
-                          'HuGene-1_0-st': {'GSE48435':['GSM1178703',
+                          'hugene-1_0-st': {'GSE48435':['GSM1178703',
                                                         'GSM1178704',
                                                         'GSM1178705',
                                                         'GSM1178706',
