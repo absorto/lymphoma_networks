@@ -12,14 +12,16 @@ if (platform == "hgu133plus2") {
     annDB = "hgu133plus2.db"
 }
 
-if (platform == "hgu133") {
+if (platform == "hgu133a") {
     library(hgu133a.db)
     annDB = "hgu133a.db"
 }
 
-if (platform == "hugene-1_0-st") {
-    library(hgu133a.db)
-    annDB = "hugene-1_0-st"
+if (platform == "hugene-1_0-st-v1") {
+#    library(org.Hs.eg.db)
+    library(hugene10stprobeset.db)
+#    library(hugene10sttranscriptcluster.db)
+    annDB = "hugene10stprobeset.db"
 }
 
 # read 'em

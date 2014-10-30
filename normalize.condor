@@ -14,7 +14,7 @@ output    = norm$(Process).out
 error     = norm$(Process).error
 universe  = vanilla
 Queue
-Arguments = /media/e/lymphoma_networks/data/GSE48435 HuGene-1_0-st
+Arguments = /media/e/lymphoma_networks/data/GSE48435 hugene-1_0-st-v1
 output    = norm$(Process).out
 error     = norm$(Process).error
 universe  = vanilla
