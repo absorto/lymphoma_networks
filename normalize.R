@@ -18,10 +18,8 @@ if (platform == "hgu133a") {
 }
 
 if (platform == "hugene-1_0-st-v1") {
-#    library(org.Hs.eg.db)
-    library(hugene10stprobeset.db)
-#    library(hugene10sttranscriptcluster.db)
-    annDB = "hugene10stprobeset.db"
+    library(hugene10sttranscriptcluster.db)
+    annDB = "hugene10sttranscriptcluster.db"
 }
 
 # read 'em
