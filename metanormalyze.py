@@ -30,27 +30,32 @@ for f in args.exprs:
     gene_ids = list(set.intersection(*gids.values()))
 
 
-eset = []
-for gid in gene_ids:
-    eset.append([np.float32(val) for sublist in [exprs[e][gid] for e in exprs.keys()] for val in sublist])
+esets = {}
+esets_norm = {}
+for e in exprs.keys():
+    esets[e] = []
+    for gid in gene_ids:
+        esets[e].append([np.float32(val) for val in exprs[e][gid]])
+    esets[e] = np.array(esets[e])
+    esets_norm[e] = (esets[e] - np.mean(esets[e])) / np.std(esets[e])
 
-eset = np.array(eset)
-normalized_eset = eset / np.linalg.norm( eset )
+
+eset = np.concatenate(esets.values(), axis=1)
+eset_norm = np.concatenate(esets_norm.values(), axis=1)
 
 
 header = [ "gene_id", ] + [val for sublist in [cels[e] for e in exprs.keys()] for val in sublist]
 
-
 gene_ids_bak = list(gene_ids)
 outwriter = csv.writer(args.normalized, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 outwriter.writerow(header)
-for row in normalized_eset:
+for row in eset_norm:
     gid = gene_ids.pop(0)
     outwriter.writerow([gid,] + list(row))
 
     
 if args.joined:
-    w = csv.writer(args.joined, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    w = csv.writer(args.joined, delimiter="\t", quotechar='"', quoting=csv.QUOTE_MINIMAL)
     w.writerow(header)
     for row in eset:
         gid = gene_ids_bak.pop(0)
