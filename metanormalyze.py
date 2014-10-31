@@ -47,7 +47,7 @@ eset_norm = np.concatenate(esets_norm.values(), axis=1)
 header = [ "gene_id", ] + [val for sublist in [cels[e] for e in exprs.keys()] for val in sublist]
 
 gene_ids_bak = list(gene_ids)
-outwriter = csv.writer(args.normalized, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+outwriter = csv.writer(args.normalized, delimiter='\t', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 outwriter.writerow(header)
 for row in eset_norm:
     gid = gene_ids.pop(0)
