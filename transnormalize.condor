@@ -1,19 +1,32 @@
 executable     = /usr/bin/Rscript
-Arguments = transnormalize.R /media/e/lymphoma_networks/data/joined/Burkitt_Controls.tsv /media/e/lymphoma_networks/data/joined/burkitt_controls_norm.csv
-universe  = vanilla
+# Arguments = transnormalize.R data/joined/Burkitt_Controls.tsv /media/e/lymphoma_networks/data/joined/burkitt_controls_norm.csv
+# universe  = vanilla
+# Queue
+# Arguments = transnormalize.R data/joined/Burkitt_DLBCLGCB.tsv data/joined/burkitt_dlbclgcb_norm.csv
+# universe  = vanilla
+# Queue
+# Arguments = transnormalize.R data/joined/Burkitt_follicular.tsv data/joined/burkitt_follicular_norm.csv
+# universe  = vanilla
+# Queue
+# Arguments = transnormalize.R data/joined/Controls_DLBCLGCB.tsv data/joined/controls_dlbclgcb_norm.csv
+# universe  = vanilla
+# Queue
+# Arguments = transnormalize.R data/joined/Controls_follicular.tsv data/joined/controls_follicular_norm.csv
+# universe  = vanilla
+# Queue
+# Arguments = transnormalize.R data/joined/DLBCLGCB_follicular.tsv data/joined/dlbclgcb_follicular_norm.csv
+# universe  = vanilla
+# Queue
+
+Arguments = transnormalize.R data/Burkitt/expmatrix_genids.tsv data/joined/burkitt_norm.tsv
+error = transnormalize_burkitt.err
 Queue
-Arguments = transnormalize.R /media/e/lymphoma_networks/data/joined/Burkitt_DLBCLGCB.tsv /media/e/lymphoma_networks/data/joined/burkitt_dlbclgcb_norm.csv
-universe  = vanilla
+Arguments = transnormalize.R data/Controls/expmatrix_genids.tsv data/joined/controls_norm.tsv
+error = transnormalize_controls.err
 Queue
-Arguments = transnormalize.R /media/e/lymphoma_networks/data/joined/Burkitt_follicular.tsv /media/e/lymphoma_networks/data/joined/burkitt_follicular_norm.csv
-universe  = vanilla
+Arguments = transnormalize.R data/DLBCLGCB/expmatrix_genids.tsv data/joined/dlbclgcb_norm.tsv
+error = transnormalize_dlbclgcb.err
 Queue
-Arguments = transnormalize.R /media/e/lymphoma_networks/data/joined/Controls_DLBCLGCB.tsv /media/e/lymphoma_networks/data/joined/controls_dlbclgcb_norm.csv
-universe  = vanilla
-Queue
-Arguments = transnormalize.R /media/e/lymphoma_networks/data/joined/Controls_follicular.tsv /media/e/lymphoma_networks/data/joined/controls_follicular_norm.csv
-universe  = vanilla
-Queue
-Arguments = transnormalize.R /media/e/lymphoma_networks/data/joined/DLBCLGCB_follicular.tsv /media/e/lymphoma_networks/data/joined/dlbclgcb_follicular_norm.csv
-universe  = vanilla
+Arguments = transnormalize.R data/follicular/expmatrix_genids.tsv data/joined/follicular_norm.tsv
+error = transnormalize_follicular.err
 Queue
