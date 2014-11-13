@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(description='discard affy ids, keep gene ids')
 
 parser.add_argument('--exprs', type=argparse.FileType('r'), required=True, help="expression matrix")
 parser.add_argument('--collapsed', type=argparse.FileType('w'), default=sys.stdout)
-parser.add_argument('--method', choices=['max','mean'], default='max')
+parser.add_argument('--method', choices=['max','median'], default='max')
              
 args = parser.parse_args()
 
@@ -20,7 +20,7 @@ def collapse_max(matrix):
         result.append(np.max(a[0:,n]))
     return result
         
-def collapse_mean(matrix):
+def collapse_median(matrix):
     result = []
     a = np.array(matrix)
     for n in range(0,len(a[0])):
@@ -46,10 +46,10 @@ for l in expr_reader:
 
 # write them out collapsed
 outwriter = csv.writer(args.collapsed, delimiter='\t', quoting=csv.QUOTE_MINIMAL)
-outwriter.writerow( [gene_id, ] + cels )
+outwriter.writerow( ["gene_id", ] + cels )
 for gene_id in exprs:
-    if args.method == 'mean':
-        collapsed = collapse_mean( exprs[gene_id] )
+    if args.method == 'median':
+        collapsed = collapse_median( exprs[gene_id] )
     elif args.method == 'max':
         collapsed = collapse_max( exprs[gene_id] )        
     outwriter.writerow( [gene_id, ] + collapsed)
