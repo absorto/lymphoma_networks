@@ -29,9 +29,12 @@ def collapse_mean(matrix):
 
 expr_reader = csv.reader(args.exprs, delimiter=",", quotechar='"')
 
+# grab cels columns header
 cels = expr_reader.next()[2:]    
-exprs = {}
 
+
+# group expression rows by gene id
+exprs = {}
 for l in expr_reader:
     affy_id = l[0]
     gene_id = l[1]
@@ -41,13 +44,7 @@ for l in expr_reader:
     else:
         exprs[gene_id] = [[np.float32(v) for v in l[2:]],]
 
-
-#pprint.pprint(exprs)
-#for gene_id in exprs:
-#    print gene_id,collapse_mean( exprs[gene_id] )
-# gids[f.name] = set(gids[f.name])
-# gene_ids = list(set.intersection(*gids.values()))
-
+# write them out collapsed
 outwriter = csv.writer(args.collapsed, delimiter='\t', quoting=csv.QUOTE_MINIMAL)
 outwriter.writerow( [gene_id, ] + cels )
 for gene_id in exprs:
