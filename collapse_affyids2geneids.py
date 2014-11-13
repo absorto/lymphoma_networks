@@ -47,7 +47,7 @@ for l in expr_reader:
 # write them out collapsed
 outwriter = csv.writer(args.collapsed, delimiter='\t', quoting=csv.QUOTE_MINIMAL)
 outwriter.writerow( ["gene_id", ] + cels )
-for gene_id in exprs:
+for gene_id in sorted(exprs.keys()):
     if args.method == 'median':
         collapsed = collapse_median( exprs[gene_id] )
     elif args.method == 'max':
