@@ -1,0 +1,19 @@
+executable     = /usr/bin/Rscript
+Arguments = transnormalize.R /media/e/lymphoma_networks/data/joined/Burkitt_Controls.tsv /media/e/lymphoma_networks/data/joined/burkitt_controls_norm.csv
+universe  = vanilla
+Queue
+Arguments = transnormalize.R /media/e/lymphoma_networks/data/joined/Burkitt_DLBCLGCB.tsv /media/e/lymphoma_networks/data/joined/burkitt_dlbclgcb_norm.csv
+universe  = vanilla
+Queue
+Arguments = transnormalize.R /media/e/lymphoma_networks/data/joined/Burkitt_follicular.tsv /media/e/lymphoma_networks/data/joined/burkitt_follicular_norm.csv
+universe  = vanilla
+Queue
+Arguments = transnormalize.R /media/e/lymphoma_networks/data/joined/Controls_DLBCLGCB.tsv /media/e/lymphoma_networks/data/joined/controls_dlbclgcb_norm.csv
+universe  = vanilla
+Queue
+Arguments = transnormalize.R /media/e/lymphoma_networks/data/joined/Controls_follicular.tsv /media/e/lymphoma_networks/data/joined/controls_follicular_norm.csv
+universe  = vanilla
+Queue
+Arguments = transnormalize.R /media/e/lymphoma_networks/data/joined/DLBCLGCB_follicular.tsv /media/e/lymphoma_networks/data/joined/dlbclgcb_follicular_norm.csv
+universe  = vanilla
+Queue
