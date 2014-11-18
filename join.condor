@@ -1,0 +1,20 @@
+executable     = /usr/bin/python
+
+Arguments = join.py --files data/joined/burkitt_norm.tsv data/joined/controls_norm.tsv --joined data/joined/burkitt_controls.joined
+universe = vanilla
+Queue
+Arguments = join.py --files data/joined/burkitt_norm.tsv data/joined/dlbclgcb_norm.tsv --joined data/joined/burkitt_dlbclgcb.joined
+universe = vanilla
+Queue
+Arguments = join.py --files data/joined/burkitt_norm.tsv data/joined/follicular_norm.tsv --joined data/joined/burkitt_follicular.joined
+universe = vanilla
+Queue
+Arguments = join.py --files data/joined/dlbclgcb_norm.tsv data/joined/controls_norm.tsv --joined data/joined/dlbclgcb_controls.joined
+universe = vanilla
+Queue
+Arguments = join.py --files data/joined/follicular_norm.tsv data/joined/controls_norm.tsv --joined data/joined/follicular_controls.joined
+universe = vanilla
+Queue
+Arguments = join.py --files data/joined/dlbclgcb_norm.tsv data/joined/follicular_norm.tsv --joined data/joined/dlbclgcb_follicular.joined
+universe = vanilla
+Queue
