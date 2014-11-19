@@ -1,4 +1,4 @@
-executable     = /usr/bin/Rscript
+executable     = /usr/local/bin/Rscript
 # Arguments = transnormalize.R data/joined/Burkitt_Controls.tsv /media/e/lymphoma_networks/data/joined/burkitt_controls_norm.csv
 # universe  = vanilla
 # Queue
@@ -18,15 +18,34 @@ executable     = /usr/bin/Rscript
 # universe  = vanilla
 # Queue
 
-Arguments = transnormalize.R data/Burkitt/expmatrix_genids.tsv data/joined/burkitt_norm.tsv
-error = transnormalize_burkitt.err
+# Arguments = transnormalize.R data/Burkitt/expmatrix_genids.tsv data/joined/burkitt_norm.tsv
+# error = transnormalize_burkitt.err
+# Queue
+# Arguments = transnormalize.R data/Controls/expmatrix_genids.tsv data/joined/controls_norm.tsv
+# error = transnormalize_controls.err
+# Queue
+# Arguments = transnormalize.R data/DLBCLGCB/expmatrix_genids.tsv data/joined/dlbclgcb_norm.tsv
+# error = transnormalize_dlbclgcb.err
+# Queue
+# Arguments = transnormalize.R data/follicular/expmatrix_genids.tsv data/joined/follicular_norm.tsv
+# error = transnormalize_follicular.err
+# Queue
+
+Arguments = transnormalize.R data/joined/burkitt_controls.joined data/burkitt_controls_joined_norm.csv
+universe = vanilla
 Queue
-Arguments = transnormalize.R data/Controls/expmatrix_genids.tsv data/joined/controls_norm.tsv
-error = transnormalize_controls.err
+Arguments = transnormalize.R data/joined/burkitt_dlbclgcb.joined data/burkitt_dlbclgcb_joined_norm.csv
+universe = vanilla
 Queue
-Arguments = transnormalize.R data/DLBCLGCB/expmatrix_genids.tsv data/joined/dlbclgcb_norm.tsv
-error = transnormalize_dlbclgcb.err
+Arguments = transnormalize.R data/joined/burkitt_follicular.joined data/burkitt_follicular_joined_norm.csv
+universe = vanilla
 Queue
-Arguments = transnormalize.R data/follicular/expmatrix_genids.tsv data/joined/follicular_norm.tsv
-error = transnormalize_follicular.err
+Arguments = transnormalize.R data/joined/dlbclgcb_controls.joined data/dlbclgcb_controls_joined_norm.csv
+universe = vanilla
+Queue
+Arguments = transnormalize.R data/joined/dlbclgcb_follicular.joined data/dlbclgcb_follicular_joined_norm.csv
+universe = vanilla
+Queue
+Arguments = transnormalize.R data/joined/follicular_controls.joined data/follicular_controls_joined_norm.csv
+universe = vanilla
 Queue
