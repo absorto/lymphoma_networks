@@ -1,17 +1,21 @@
+# captura argumentos de la linea de comandos
 args <- commandArgs(trailingOnly = TRUE)
-#nombre del archivo de entrada
+
+# nombre del archivo de entrada
 nomarchivo = args[1]
-#numero de columnas pertenecientes al primer dx
+# numero de columnas pertenecientes al primer dx
 A = args[2]
-#numero de columnas pertenecientes al primer dx
+# numero de columnas pertenecientes al primer dx
 B = args[3]
-print(¨¿Cómo deseas que se llame el título de tu archivo de contrastes y tu volcano plot?¨)
+# nombres de archivos de salida
 salida = args[4]
 pdffile = args[5]
+
 library(affy)
 library(limma)
 library(gplots)
-arch=read.table(nomarchivo,header=FALSE,row.names=1)
+
+arch=read.table(nomarchivo,header=TRUE,row.names=1,sep=",")
 A=as.numeric(A)
 B=as.numeric(B)
 N=A+B
@@ -42,4 +46,4 @@ volcanoplot(fit3,coef=1, highlight=100, main=salida)
 dev.off()
     
 # guarda un archivo .csv con los genes diferencialmente expresados ordenados de acuerdo al estad'isitco
-write.csv(toptable(fit3, coef=1, adjust="fdr", n=nrow(arch), p.value=0.01,lfc=1), file=salida)
+write.csv(toptable(fit3, coef=1, adjust="fdr", n=nrow(arch), lfc=0.4, p.value=0.05), file=salida)
