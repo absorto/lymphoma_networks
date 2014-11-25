@@ -11,8 +11,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
+   width="3426.1147"
+   height="720.33563"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.18028811"
-     inkscape:cx="-678.43545"
-     inkscape:cy="-404.27011"
+     inkscape:cx="498.30966"
+     inkscape:cy="-2553.4566"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -36,21 +36,26 @@
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      showborder="false"
-     inkscape:showpageshadow="false" />
+     inkscape:showpageshadow="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <defs
      id="defs4">
     <marker
-       style="overflow:visible;"
+       style="overflow:visible"
        id="Arrow1Lend"
-       refX="0.0"
-       refY="0.0"
+       refX="0"
+       refY="0"
        orient="auto"
        inkscape:stockid="Arrow1Lend">
       <path
-         transform="scale(0.8) rotate(180) translate(12.5,0)"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path37861" />
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path37861"
+         inkscape:connector-curvature="0" />
     </marker>
     <linearGradient
        y2="0"
@@ -4748,7 +4753,8 @@
   <g
      id="layer1"
      inkscape:groupmode="layer"
-     inkscape:label="Capa 1">
+     inkscape:label="Capa 1"
+     transform="translate(1176.7451,2926.4955)">
     <image
        inkscape:transform-center-x="81.534695"
        transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)"
@@ -20976,7 +20982,8 @@
      inkscape:label="slides"
      id="layer2"
      inkscape:groupmode="layer"
-     style="display:inline">
+     style="display:none"
+     transform="translate(1176.7451,2926.4955)">
     <rect
        y="-3015.4402"
        x="-1284.9877"
