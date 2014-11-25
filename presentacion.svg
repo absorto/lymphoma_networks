@@ -24,13 +24,13 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.2256708"
-     inkscape:cx="457.20165"
-     inkscape:cy="441.67674"
+     inkscape:zoom="0.18028811"
+     inkscape:cx="-678.43545"
+     inkscape:cy="-404.27011"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="2558"
+     inkscape:window-width="1278"
      inkscape:window-height="1598"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -20849,12 +20849,134 @@
          y="-107.25269"
          x="1527.4124"
          sodipodi:role="line">anticuerpos de gran afinidad contra microorganismos invasores.</tspan></text>
+    <rect
+       style="fill:#ffe4b5"
+       y="3195.584"
+       x="3798.2332"
+       height="485.7471"
+       width="536.42029"
+       id="rect6880" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text6882"
+       y="3270.3938"
+       x="3838.1531"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="3270.3938"
+         x="3838.1531"
+         sodipodi:role="line"
+         id="tspan6886">CC: 0.6288</tspan><tspan
+         y="3320.3938"
+         x="3838.1531"
+         sodipodi:role="line"
+         id="tspan6894">ncc: 8</tspan><tspan
+         y="3370.3938"
+         x="3838.1531"
+         sodipodi:role="line"
+         id="tspan6896">diameter: 9</tspan><tspan
+         y="3420.3938"
+         x="3838.1531"
+         sodipodi:role="line"
+         id="tspan6898">centralization: 0.4067</tspan><tspan
+         y="3470.3938"
+         x="3838.1531"
+         sodipodi:role="line"
+         id="tspan6900">avspl: 2.3085</tspan><tspan
+         y="3520.3938"
+         x="3838.1531"
+         sodipodi:role="line"
+         id="tspan6902">aristas: 812</tspan><tspan
+         y="3570.3938"
+         x="3838.1531"
+         sodipodi:role="line"
+         id="tspan6930">vértices: 43,426</tspan><tspan
+         y="3620.3938"
+         x="3838.1531"
+         sodipodi:role="line"
+         id="tspan6904">density: 0.1318</tspan><tspan
+         y="3670.3938"
+         x="3838.1531"
+         sodipodi:role="line"
+         id="tspan6906" /></text>
+    <rect
+       id="rect6908"
+       width="555.14032"
+       height="473.26706"
+       x="-2871.6462"
+       y="2526.0208"
+       style="fill:#ffe4b5" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-2831.7263"
+       y="2600.8306"
+       id="text6910"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan6912"
+         sodipodi:role="line"
+         x="-2831.7263"
+         y="2600.8306">CC: 0.34</tspan><tspan
+         id="tspan6914"
+         sodipodi:role="line"
+         x="-2831.7263"
+         y="2650.8306">ncc: 1</tspan><tspan
+         id="tspan6916"
+         sodipodi:role="line"
+         x="-2831.7263"
+         y="2700.8306">diameter: 15</tspan><tspan
+         id="tspan6918"
+         sodipodi:role="line"
+         x="-2831.7263"
+         y="2750.8306">centralization: 0.1037</tspan><tspan
+         id="tspan6920"
+         sodipodi:role="line"
+         x="-2831.7263"
+         y="2800.8306">avspl: 4.2677</tspan><tspan
+         id="tspan6922"
+         sodipodi:role="line"
+         x="-2831.7263"
+         y="2850.8306">aristas: 2,693</tspan><tspan
+         sodipodi:role="line"
+         x="-2831.7263"
+         y="2900.8306"
+         id="tspan6928">vértices: 25,461</tspan><tspan
+         id="tspan6924"
+         sodipodi:role="line"
+         x="-2831.7263"
+         y="2950.8306">density: 0.00702</tspan><tspan
+         id="tspan6926"
+         sodipodi:role="line"
+         x="-2831.7263"
+         y="3000.8306" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="3857.5664"
+       y="3816.7415"
+       id="text6934"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan6952"
+         sodipodi:role="line"
+         x="3857.5664"
+         y="3816.7415">Burkitt</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text6998"
+       y="2628.564"
+       x="-2138.3916"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="2628.564"
+         x="-2138.3916"
+         sodipodi:role="line"
+         id="tspan7016">Folicular</tspan></text>
   </g>
   <g
      inkscape:label="slides"
      id="layer2"
      inkscape:groupmode="layer"
-     style="display:none">
+     style="display:inline">
     <rect
        y="-3015.4402"
        x="-1284.9877"
@@ -20926,12 +21048,12 @@
        id="rect179996"
        style="opacity:0.61682243;color:#000000;fill:none;stroke:#8d91d0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <rect
-       style="opacity:0.61682243;color:#000000;fill:none;stroke:#8d91d0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:0.61682243;color:#000000;fill:none;stroke:#8d91d0;stroke-width:2.83385181;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect188000"
-       width="704.5661"
-       height="868.52173"
+       width="1323.8495"
+       height="928.02167"
        x="3048.6885"
-       y="3161.6294" />
+       y="3102.1294" />
     <rect
        y="387.67719"
        x="-997.02753"
@@ -20954,10 +21076,10 @@
        id="rect211376"
        style="opacity:0.61682243;color:#000000;fill:none;stroke:#8d91d0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <rect
-       style="opacity:0.61682243;color:#000000;fill:none;stroke:#8d91d0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:0.61682243;color:#000000;fill:none;stroke:#8d91d0;stroke-width:2.76554132;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect219172"
        width="1502.1881"
-       height="536.17926"
+       height="1025.2041"
        x="-2995.5137"
        y="2027.2335" />
     <rect
@@ -20980,7 +21102,7 @@
        height="367.79236"
        width="1240.7454"
        id="rect164857"
-       style="opacity:0.61682243000000003;color:#000000;fill:none;stroke:#8d91d0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+       style="opacity:0.61682243;color:#000000;fill:none;stroke:#8d91d0;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
   </g>
   <script
      ns1:version="11.10-20110832"
